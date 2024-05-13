@@ -1,0 +1,822 @@
+body {font-family: "Montserrat", sans-serif;}
+
+
+.navbar-encabezado {
+    background-color: #991b72;
+    width: 100%; /* navbar Pantalla completa */
+}
+
+
+
+.Barrashop {
+    width: 80%;  position: relative;  margin: 0 auto; /*TAMAÑO*/
+    display: flex;
+    box-sizing: content-box; 
+    justify-content: space-between;/* elementos espaciado nav bar*/
+    align-items: center;
+    }
+
+/* Left side styles */
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.contact-link { /* Telefono*/
+    display: flex;
+    align-items: center;
+    margin-right: 3%;
+}
+
+
+.icon-email, .icon-phone {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    fill: #000;
+    display: inline-block;
+}
+
+/* Right side styles */
+.navbar-right {
+    display: flex; 
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.img-redes {
+    width: 20px; /* Set the width of all images */
+    align-items: center; /* Add margin around all images */
+  }
+
+.icon-email, .icon-phone {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    fill: #000;
+    display: inline-block;
+}
+
+
+/* LOGO CABEZOTE */
+.logo{margin-top: 40px;}
+
+
+
+
+
+
+/*PRIMER DIVISOR*/.first-divisor { margin-top: 0;} 
+
+
+header { background-color: white; padding: 20px 0;}
+
+
+.caja{ width: 80%;  position: relative;  margin: 0 auto;} /*TAMAÑO*/
+
+
+
+nav li{ display: inline;  margin: 0 0 0 45px;} /*ESPACIADO  OPCIONES*/
+
+
+
+nav a:hover{
+    color: #/*Sección TEXTO PRINCIPAL */
+
+.principal {
+    text-align: center;
+    padding: 20px 0;
+    background: #fefefe;
+    width: 100%; /*pantalla padron*/
+    margin: 0 0 20px;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em; /*dos veces el tamaño padrom*/
+    margin: 0 0 1em;
+    clear: left;
+    color: rgb(0, 0, 0, 0.3); /*0.3 cuarto item TITULOS OPACIDAD*/
+}
+
+/*Seudo elementos:  se crea con before
+selecciones especificas de elementos, alterar el visual sin afectar el html*/
+
+/* PRIMERA LETRAS + OSCURA .titulo-principal:first-letter {font-weight: bold;}*/ 
+
+.principal p {margin: 0 0 1em;}
+
+.principal strong { font-weight: bold;}
+
+.principal em { font-style: italic;}
+
+/*
+.utensilios {  float
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;} 
+*/ 
+
+
+.barra-iconos {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 3em;
+    }
+
+.barra-imagenes img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 40px;
+}
+
+;  /*COLOR OPCIONES MENU*/
+    text-decoration: underline;}
+
+
+
+
+
+
+/*revisado Inicia morado*/
+
+
+    .Barrashop {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        padding-block: 10px;
+        background-color: #991b72;  /*COLOR*/
+        }
+    
+    .BarraCompras {color: white; font-size: 14px; margin: 10px;}
+    
+
+
+
+
+
+
+
+
+
+/*Estilos pagina HOME*/
+.banner {
+    position: relative;
+    background-image: url("imagenes/banner_3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 460px; /* Altura del banner */
+
+  }
+  
+  .banner-overlay {
+    width: 40%;
+    left: 30%; /* ubicación centrada */
+    position:relative;
+    top: 30%;
+    background-color: rgba(255, 253, 250, 0.688); /* Color del cuadro blanco con opacidad */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .banner-content {
+    text-align: center;
+    color: #333; /* Color del texto */
+    padding: 20px;
+    border-radius: 20px; /* Radio de los bordes del cuadro blanco */
+  }
+  
+  .banner-content h1 {
+
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .banner-content p {
+    font-size: 18px;
+  }
+
+
+
+/*Sección TEXTO PRINCIPAL */
+
+.principal {
+    text-align: center;
+    padding: 20px 0;
+    background: #fefefe;
+    width: 100%; /*pantalla padron*/
+    margin: 0 0 20px;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em; /*dos veces el tamaño padrom*/
+    margin: 0 0 1em;
+    clear: left;
+    color: rgb(0, 0, 0, 0.3); /*0.3 cuarto item TITULOS OPACIDAD*/
+}
+
+/*Seudo elementos:  se crea con before
+selecciones especificas de elementos, alterar el visual sin afectar el html*/
+
+/* PRIMERA LETRAS + OSCURA .titulo-principal:first-letter {font-weight: bold;}*/ 
+
+.principal p {margin: 0 0 1em;}
+
+.principal strong { font-weight: bold;}
+
+.principal em { font-style: italic;}
+
+/*
+.utensilios {  float
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;} 
+*/ 
+
+
+.barra-iconos {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 3em;
+    }
+
+.barra-imagenes img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 40px;
+}
+
+
+
+
+
+/*Estilo contenedor 2 column*/
+.container {
+    margin-top: 20px;
+    display: flex;
+    height: 400px; /* Ajusta la altura según tu necesidad */
+    background-image: url('imagenes/banner_1.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.column {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+
+
+.image-column img { /* la imagen ocupe todo el espacio disponible en la columna */
+    max-width: 40%;
+    display: block;
+    margin: auto;}
+
+.green-column {background-color: #016241;}
+.text-column {padding-left: 60px; padding-right:60px;  text-align:justify}
+.titulo-colum {font-weight: bold;  padding-bottom: 2em}
+
+
+
+
+/* Seccion 3 colums-productos*/
+.container-Section2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   ;
+}
+
+.box {
+    position: relative;
+    width: 30%; /* Ancho de cada contenedor */
+    text-align: center;
+}
+
+.box img {
+    width: 100%;
+    display: block;
+    border-radius: 10px; /* Añade bordes redondeados a las imágenes */
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para el texto */
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    visibility: hidden; /* Oculta inicialmente el texto */
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s;
+}
+
+.box:hover .overlay {
+    visibility: visible; /* Muestra el texto cuando el mouse está sobre el contenedor */
+    opacity: 1;
+}
+
+
+/* Seccion catalogo*/
+
+.catalogo-section {
+    margin-top: 1em;
+    background-color: #4CAF50;
+    padding: 40px;
+    text-align: center;
+    box-shadow: inset 0 0 10px #fefefe; /*SOMBRA*/
+}
+
+.download-button {
+    background-color: white;
+    color:  #016241;
+    border: none;
+    padding: 10px 20px;/*BOTON*/
+    margin: 18px 2px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 8px;
+}
+
+
+
+.download-button:hover {
+    background-color: #f1f1f1;
+}
+
+/*Productos y Servicios*/
+.productos-section{margin-block: 40px;}
+
+
+
+/* Producto con detalles de compra
+.product-section {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.product-image {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-details {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.price {
+    margin-bottom: 20px;
+}
+
+.quantity {
+    margin-bottom: 20px;
+}   */
+
+.add-to-cart {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+
+
+/*incrustación de mapa*/ 
+
+.mapa {
+    padding: 3em 0;
+    background: linear-gradient(#fefefe, #f4d9a8); /*COLOR Gradiante*/ 
+    /*background: radial-gradient();*/} 
+
+.mapa p {margin: 0 0 2em;  
+    text-align: center;}
+
+.Mapa-contenido {
+    width: 940px;
+    margin: 0 auto;
+}
+
+/*Diferenciales*/
+
+.diferenciales {
+    padding: 3em 0;
+    background: #888;
+
+}
+
+
+.contenido-diferenciales {width: 640px; margin: 0 auto;}
+
+.lista-diferenciales {
+    width: 40%;
+    display: inline-block;vertical-align: top;}
+
+.items {line-height: 1.5;}
+
+.items:before{content:"🟆";}
+
+.items:first-child { /*o usar nth-child (escoger 2n)*/
+    font-weight: bold;
+} /* Ejemplo convinado*/
+
+/*Estilos LISTA DIFERENCIALES*/
+.items:first-child{font-style: italic}
+.items:nth-child(4){font-weight: bold}
+.items:last-child{font-style: italic}
+
+.imagen-diferenciales {
+    width: 60%; /*medidas proporcionales: width: calc( (100% / 3) - 10px )
+100% de ancho con el equivalente a un tercio del elemento padre*/
+    transition: 400ms;}
+
+
+.imagen-diferenciales:hover{
+    opacity:0.3 ; /* Animación contenido*/
+
+   
+
+}
+
+.video {
+    width: 560px;
+    margin: 1em auto;
+}
+
+
+/**/
+.productos {
+    width: 1240px; 
+    margin: 0 auto; 
+    padding: 50px;} 
+
+.productos li{
+        display: inline-block;
+        text-align: center;
+        width: 30%;
+        vertical-align: top;
+        margin: 0 1.5%;
+        padding: 20px 20px;
+        box-sizing: border-box;
+        border: 2px solid #000000;
+        border-radius: 10px;
+    }
+
+.productos li:hover{border-color: #991b72; border-width: 4px; }
+
+.productos li:active{border-color: purple;}
+
+/*hover, cuando el usuario pasa el cursor sobre el elemento.
+active, cuando un elemento está siendo activado por el usuario.*/
+
+.productos h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.productos li:hover h2 {font-size: 30px;}
+
+.producto-descripcion {font-size: 18px;}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight:bold ;
+    margin-top: 10px;}
+
+
+/* reset.css --- estilo creado no sea influenciado por el estilo que el navegador agrega por defect*/
+
+
+footer{
+    text-align: center;
+    background: #016241;
+    padding: 40px;
+}
+
+.copyright{color: white; font-size: 12px; margin: 20px;}
+
+
+
+/*Estilos pagina contacto*/
+
+form{margin: 40px 0;}
+
+form label, form p {
+    display: block;font-size: 20px; margin: 0 0 10px;}
+
+.input-padron { /*bolem primero*/
+    display: block; margin: 0 0 20px; padding: 10px 25px; 
+    width: 50% ;}
+
+.checkbox {margin: 20px 0;}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #ffce3c;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer; /*manito boton*/
+}
+
+.enviar:hover {
+    background: #438c49;
+    transform: scale(1.2); /*no coma intemerdia No 2 transform-- rotate(70deg)--toma ultima*/
+}
+
+table {margin: 40px 40px;}
+
+thead {background: #555555; color: white; font-weight: bold;}
+
+td, th {border: 1px solid black; padding: 10px 15px;}
+
+.titulo-colum {
+}
+
+
+
+/*EMPIEZA ESTILO PRODUCTOS*/
+body{ }
+
+.navbar {display: flex; justify-content: left;
+    background-image: url(imagenes/_navbar.png); background-size: cover;}
+
+.menu {
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    margin: 2%;
+} 
+
+.menu li  {list-style: none;}
+
+
+.iconosbotones{    
+    display: flex;
+    width: 25%;
+    align-items: right;
+    margin: 2%;
+}
+
+.iconosbotones li {list-style: none;}
+
+#Banner{width:100%}
+
+.principal {background: #f9f9f9; margin-top: 20px; } /*COLOR PRINCIPAL*/
+
+h1{text-align: center;}
+
+p{text-align: center;} /* */
+
+em strong{ color: #438c49;}
+
+#mision{ font-size: 20px} /*llamado id con # */
+
+.diferenciales {background: #ffffff;padding: 30px;}
+
+h2{text-align:center;}
+
+.items{font-style: italic;}
+
+/* Display
+ul{display: inline-block;  /*Comportamientos inline y block.
+vertical-align: top;
+width: 20%;
+margin-right: 15%;} */
+
+.imagenDiferenciales{width: 50%;}
+
+
+
+
+
+
+/*SECCION CONTACTO*/
+.Formulario-Usuario { width: 80%;  position: relative;  margin: 0 auto;} /*TAMAÑO*/
+
+
+
+/* Seccion 3 colums-productos*/
+.video-redes{margin-top: 40px;
+align-items: center;}
+
+
+.container-Section3 {
+    width: 100%;
+    flex-wrap: nowrap;
+    display: inline-flex;
+    vertical-align: top;
+    box-sizing: border-box;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+
+
+
+
+/*
+footer{
+    text-align: center;
+    background: #016241;
+    padding: 40px;
+}
+
+.copyright{color: white; font-size: 12px; margin: 20px;}
+
+
+
+background-image: url(imagenes/Portfolio_2024.png);
+background-size: cover;
+background-position-x: center; background-repeat: no-repeat;
+
+*/
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+    color: #313030;
+    font-size: 14px;
+    background: #fff;
+  }
+  
+  #footer .footer-top {
+    padding: 60px 0 30px 0;
+    background: #fff9f7;
+  }
+  
+  #footer .footer-top .footer-contact {
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-contact h4 {
+    font-size: 22px;
+    margin: 0 0 30px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+  }
+  
+  #footer .footer-top .footer-contact p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+    font-family: "Raleway", sans-serif;
+    color: #656262;
+  }
+  
+  #footer .footer-top h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #313030;
+    position: relative;
+    padding-bottom: 12px;
+  }
+  
+  #footer .footer-top .footer-links {
+    margin-bottom: 30px;
+  }
+  
+  #footer .footer-top .footer-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: #584b48 ;
+    font-size: 18px;
+    line-height: 1;
+  }
+  
+  #footer .footer-top .footer-links ul li {
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  #footer .footer-top .footer-links ul li:first-child {
+    padding-top: 0;
+  }
+  
+  #footer .footer-top .footer-links ul a {
+    color: #656262;
+    transition: 0.3s;
+    display: inline-block;
+    line-height: 1;
+  }
+  
+  #footer .footer-top .footer-links ul a:hover {
+    text-decoration: none;
+    color: #ff5821;
+  }
+  
+  #footer .footer-newsletter {
+    font-size: 15px;
+  }
+  
+  #footer .footer-newsletter h4 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #313030;
+    position: relative;
+    padding-bottom: 12px;
+  }
+  
+  #footer .footer-newsletter form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 50px;
+    text-align: left;
+    border: 1px solid #584b48 ;
+  }
+  
+  #footer .footer-newsletter form input[type=email] {
+    border: 0;
+    padding: 4px 8px;
+    width: calc(100% - 100px);
+  }
+  
+  #footer .footer-newsletter form input[type=submit] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px;
+    background: #ff5821;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 50px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  #footer .footer-newsletter form input[type=submit]:hover {
+    background: #ed3b00;
+  }
+  
+  #footer .credits {
+    padding-top: 5px;
+    font-size: 13px;
+    color: #313030;
+  }
+  
+  #footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #5884e7;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #footer .social-links a:hover {
+    background: #584b48 ;
+    color: #fff;
+    text-decoration: none;
+  }

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body> 
+    <!--Barra top ENVIOS -->
+    <div id="Barrashop" class="Barrashop">
+        <a href="Productos.html" class="BarraCompras">
+        Envios a todo Colombia de 1 a 2 días habiles</a>
+    </div>
+
+    <div class="logo">
+        <h1><img src="imagenes/Lianart_LogoVerde.png" width="180px"></h1>
+    </div>
+    
+    <header>
+        <div class="caja" >
+            
+            <div class="navbar-left"">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="productos.html">Servicios</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+            
+            <div class="navbar-right">
+                <a href="mailto:info@fajardoabogados.co" class="contact-link">
+                    <span class="icon-email"><img class="img-redes" src="imagenes/redes-01.png"></span>
+                    lianart96@gmail.com 
+                </a>
+                <a href="tel:3203944252" class="contact-link">
+                    <span class="icon-phone"><img class="img-redes" src="imagenes/redes-02.png"></span>
+                    3209832237
+                </a>               
+            </div>
+
+
+        </div>
+    </header>
+
+ 
+
+
+<main>
+
+    <!-- Formulario-->
+
+    <form class="Formulario-Usuario">
+        <label for="nombreapellido">Nombre y Apellido</label>
+        <input type="text" id="nombreyapellido" class="input-padron" required> <!--obligatorio-->
+
+        <label for="correoelectronico">Correo Electrónico</label>
+        <input type="email" id="correoelectronico" class="input-padron"required placeholder="email@dominicio.com">
+
+        <label for="telefono">Teléfono</label>
+        <input type="tel" id="telefono" class="input-padron" required placeholder="(xx)xxx xxx xxxx">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea name="" id="mensaje" cols="70" rows="10" required></textarea>
+
+
+        <!-- Radio Buton// name="contacto" seleccionamos 1-->
+
+        <fieldset><!--agrupa items del mismo grupo-->
+            <legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+            <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+            
+            <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+            
+    
+            <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+        </fieldset>
+
+
+        <fieldset> 
+            <!--etiqueta <legend> que usamos para un título de un grupo de campos en cualquier formulario-->
+            <legend>¿En cuál horario prefiere ser atendido?</legend>
+            <select> <!-- Para crear los ítems seleccionables de un <select>-->
+                <option>Mañana</option>
+                <option>Tarde</option>
+                <option>Noche</option>
+            </select>
+        </fieldset>
+
+
+        <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de LianART? </label>
+
+        <input type="submit" value="Enviar formulario" class="enviar">
+
+    </form>
+
+    <br>
+    <br>
+
+    <!--opcional section
+    <table class="tabla-horarios"> tabla
+
+        <thead>
+            <tr>   fila
+                <th>Día</th> celdas
+                <th>Horario</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Lunes</td>
+                <td>08h - 20h</td>   </tr>
+    
+            <tr>
+                <td>Miércoles</td>
+                <td>08h - 20h</td>   </tr>
+    
+            <tr>
+                <td>Viernes</td>
+                <td>08h - 20h</td>   </tr>
+        </tbody>
+      
+
+    </table>  -->
+
+
+
+
+
+</main>   
+
+
+
+
+<footer>
+        <img src="imagenes/Logo-blanco.png" alt="Logo portafolio LinaRomero">
+        <p class="copyright">&#169; Copyright Portafolio LinaRomero - 2024</p>
+    
+</footer>
+
+
+</body>
+</html>
